@@ -1,0 +1,39 @@
+@import "../../styles/variables";
+@import "../../styles/__breakpoints";
+
+.homepage__cover {
+    &--container {
+        display: flex;
+    }
+
+    &--left__section {
+        width: 45%;
+    }
+
+    &--right__section {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        width: 50%;
+        // align-self: flex-end;
+        justify-self: flex-end;
+
+        h2 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.4rem;
+            text-align: right;
+        }
+
+        button {
+            background-color: $primary_color;
+            border: none;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+        }
+    }
+}

@@ -3,7 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import AboutPage from './about'
-import DesktopHeader from '../components/DesktopHeader/DesktopHeader'
+import DesktopHeader from '../components/DesktopHeader/DesktopHeader';
+import HomePageCover from '../components/HomePageCover/HomePageCover'
 
 export default function Home() {
   return (
@@ -17,9 +18,8 @@ export default function Home() {
       <main className={styles.main}>
         <DesktopHeader />
 
+        <HomePageCover />
 
-
-        <h2>Home Page</h2>
       </main>
 
       <footer className={styles.footer}>

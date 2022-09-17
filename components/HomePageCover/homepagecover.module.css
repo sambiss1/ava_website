@@ -1,0 +1,30 @@
+.homepage__cover--container {
+  display: flex;
+}
+.homepage__cover--left__section {
+  width: 45%;
+}
+.homepage__cover--right__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+  justify-self: flex-end;
+}
+.homepage__cover--right__section h2 {
+  font-size: 2em;
+}
+.homepage__cover--right__section p {
+  font-size: 1.4rem;
+  text-align: right;
+}
+.homepage__cover--right__section button {
+  background-color: #09176B;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=homepagecover.module.css.map */
