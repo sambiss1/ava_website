@@ -33,7 +33,7 @@ const DesktopHeader = () => {
                     </li>
                 </div>
 
-                <div>
+                <div className={styles["navigation__logo--container"]}>
                     <Image
                         src="/logo-ava.png"
                         alt="main logo"

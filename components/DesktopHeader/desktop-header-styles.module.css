@@ -11,18 +11,25 @@
 .desktop__navigation--container div {
   display: flex;
   border: 0.1em solid white;
-  width: 100%;
-  justify-content: space-around;
+  width: 50%;
   align-items: center;
+}
+.desktop__navigation--container div:nth-child(3) {
+  justify-content: flex-end;
 }
 .desktop__navigation--container div li {
   list-style-type: none;
+  margin: 0 2rem;
+}
+.desktop__navigation--container .navigation__logo--container {
+  justify-content: center;
 }
 
 .activeLink {
   color: #09176B;
   text-decoration: underline;
   text-decoration-color: #09176B;
+  text-decoration-style: double;
 }
 
 /*# sourceMappingURL=desktop-header-styles.module.css.map */
