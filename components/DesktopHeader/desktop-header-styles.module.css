@@ -1,0 +1,28 @@
+.desktop__header--container {
+  display: flex;
+  width: 100%;
+}
+
+.desktop__navigation--container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.desktop__navigation--container div {
+  display: flex;
+  border: 0.1em solid white;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.desktop__navigation--container div li {
+  list-style-type: none;
+}
+
+.activeLink {
+  color: #09176B;
+  text-decoration: underline;
+  text-decoration-color: #09176B;
+}
+
+/*# sourceMappingURL=desktop-header-styles.module.css.map */

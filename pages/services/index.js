@@ -1,8 +1,14 @@
+import DesktopHeader from "../../components/DesktopHeader/DesktopHeader";
+import styles from '../../styles/Home.module.css'
+
 const ServicesPage = () => {
     return (
-        <>
-            Services Page
-        </>
+        <div className={styles.container}>
+            <main className={styles.main}>
+                <DesktopHeader />
+                Services Page
+            </main>
+        </div>
     )
 }
 
