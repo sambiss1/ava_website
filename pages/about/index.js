@@ -9,7 +9,6 @@ import PageCover from "../../components/PageCover/PageCover";
 
 const AboutPage = ({ props }) => {
     const router = useRouter()
-    console.log(router.pathname)
     props = {
         title: "Agence Vigile Africa ",
         text: "Une agence de services pour la gestion de vos projets, la sécurité de vos vies et de vos biens",
@@ -19,7 +18,7 @@ const AboutPage = ({ props }) => {
     return (
         <div className={homePageStyles["container"]}>
             <Head>
-                <title>Agence Vigile Africa | A Propos</title>
+                <title> A Propos | Agence Vigile Africa</title>
             </Head>
             <DesktopHeader />
 

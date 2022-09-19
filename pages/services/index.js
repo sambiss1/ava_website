@@ -14,7 +14,7 @@ const ServicesPage = ({ props }) => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Agence Vigile Africa | A Propos</title>
+                <title>Services | Agence Vigile Africa</title>
             </Head>
             <DesktopHeader />
             <main className={styles.main}>
