@@ -2,15 +2,16 @@
   width: 100%;
   display: flex;
   margin: 5% 0;
+  justify-content: space-between;
 }
 .about__section--left__section, .about__section--right__section {
   width: 50%;
 }
 .about__section--left__section h2 {
-  font-size: 2.4em;
+  font-size: 1.8em;
 }
 .about__section--left__section p {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .about__section--left__section button {
   background-color: #09176B;
@@ -18,6 +19,52 @@
   color: white;
   padding: 1rem 2rem;
   font-size: 1.2rem;
+}
+.about__section--right__section {
+  width: 40%;
+}
+.about__section--right__section span {
+  border: 0.1em solid red;
+}
+
+.services__section--container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5% 0;
+}
+.services__section--container h2 {
+  font-size: 1.8em;
+}
+.services__section--content {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.services__content--card {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5% 0;
+  justify-content: flex-start;
+}
+
+.card__content--title {
+  font-size: 1.2em;
+}
+.card__content--icon {
+  color: #09176B;
+  font-size: 2.8em;
+}
+.card__content--text {
+  font-size: 1em;
 }
 
 /*# sourceMappingURL=homepage.module.css.map */

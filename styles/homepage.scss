@@ -7,6 +7,7 @@
         width: 100%;
         display: flex;
         margin: $section_margin 0;
+        justify-content: space-between;
     }
 
     &--left__section,
@@ -17,13 +18,12 @@
     &--left__section {
 
 
-
         h2 {
-            font-size: 2.4em;
+            font-size: 1.8em;
         }
 
         p {
-            font-size: 1.4em;
+            font-size: 1.2em;
         }
 
         button {
@@ -32,6 +32,69 @@
 
     }
 
+    &--right__section {
 
 
+        width: 40%;
+
+        span {
+            border: .1em solid red;
+        }
+
+    }
+
+
+}
+
+.services__section {
+
+    &--container {
+        @include flex__display__column;
+        @include centeredItem;
+        margin: 5% 0;
+
+        h2 {
+
+            font-size: 1.8em;
+        }
+    }
+
+    &--content {
+        @include flex__display__row;
+        justify-content: space-evenly;
+
+    }
+
+
+
+
+}
+
+
+.services__content {
+    &--card {
+        @include flex__display__column;
+        @include centeredItem;
+        margin: 5% 0;
+
+        justify-content: flex-start;
+    }
+
+
+
+}
+
+.card__content {
+    &--title {
+        font-size: 1.2em;
+    }
+
+    &--icon {
+        color: $primary_color;
+        font-size: 2.8em;
+    }
+
+    &--text {
+        font-size: 1em;
+    }
 }

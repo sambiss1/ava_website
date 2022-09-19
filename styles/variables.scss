@@ -10,3 +10,20 @@ $section_margin: 5%;
     padding: 1rem 2rem;
     font-size: 1.2rem;
 }
+
+@mixin flex__display__row {
+    display: flex;
+    width: 100%;
+}
+
+@mixin flex__display__column {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+@mixin centeredItem {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

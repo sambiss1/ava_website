@@ -4,8 +4,8 @@ import styles from '../../styles/Home.module.css'
 const ServicesPage = () => {
     return (
         <div className={styles.container}>
-            <main className={styles.main}>
                 <DesktopHeader />
+            <main className={styles.main}>
                 Services Page
             </main>
         </div>

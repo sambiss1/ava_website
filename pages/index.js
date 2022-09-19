@@ -1,12 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-import AboutPage from './about'
+import AboutPage from './about';
 import DesktopHeader from '../components/DesktopHeader/DesktopHeader';
 import HomePageCover from '../components/HomePageCover/HomePageCover';
-import Footer from '../components/Footer/Footer'
+import Footer from '../components/Footer/Footer';
+import styles from '../styles/Home.module.css';
 import homePageStyles from "../styles/homepage.module.css";
+import { HiOutlineDesktopComputer, HiOutlineCog } from "react-icons/hi";
+import { MdOutlineShield } from "react-icons/md";
+import { TbDrone } from "react-icons/tb";
 
 export default function Home() {
   return (
@@ -19,10 +22,12 @@ export default function Home() {
 
       <DesktopHeader />
       <main className={styles.main}>
+        {/* Home page cover section*/}
         <HomePageCover />
+        {/* Home page about section*/}
         <div className={homePageStyles["about__section--container"]}>
           <div className={homePageStyles["about__section--left__section"]}>
-            <h2>A Propos</h2>
+            <h2>A PROPOS</h2>
             <p>Coreasofts a purely Congolese company born from the union between computer engineers in artificial intelligence and computer engineers in telecommunications and network administration, and present on the market of new technologies since 2019. In the sale of products and services.</p>
             <button>En savoir plus ...</button>
           </div>
@@ -30,9 +35,53 @@ export default function Home() {
             <Image
               src={"/images/content_team.svg"}
               alt="team"
-              width={550}
-              height={550}
+              width={400}
+              height={450}
+              // className={homePageStyles["about__section--right__section"]}
+
             />
+          </div>
+        </div>
+
+
+        {/* Home page services section*/}
+        <div className={homePageStyles["services__section--container"]}>
+          <h2>SERVICES</h2>
+          <div className={homePageStyles["services__section--content"]}>
+
+
+            {/* Home page services section (first card)*/}
+            <div className={homePageStyles["services__content--card"]}>
+              <h4 className={homePageStyles["card__content--title"]}>Informatique</h4>
+              <HiOutlineDesktopComputer className={homePageStyles["card__content--icon"]} />
+              <p className={homePageStyles["card__content--text"]}>Conception et déploiement de sites web et d'applications </p>
+            </div>
+
+
+            {/* Home page services section (second card)*/}
+            <div className={homePageStyles["services__content--card"]}>
+              <h4 className={homePageStyles["card__content--title"]}>Technique</h4>
+              <HiOutlineCog className={homePageStyles["card__content--icon"]} />
+              <p className={homePageStyles["card__content--text"]}>Maintenance d'équipements électroniques, mécaniques et électriques</p>
+            </div>
+
+
+
+            {/* Home page services section (third card)*/}
+
+            <div className={homePageStyles["services__content--card"]}>
+              <h4 className={homePageStyles["card__content--title"]}>Sécurité</h4>
+              <MdOutlineShield className={homePageStyles["card__content--icon"]} />
+              <p className={homePageStyles["card__content--text"]}>Protection rapprochée</p>
+            </div>
+
+            {/* Home page services section (fourth card)*/}
+            <div className={homePageStyles["services__content--card"]}>
+              <h4 className={homePageStyles["card__content--title"]}>Media</h4>
+              <TbDrone className={homePageStyles["card__content--icon"]} />
+              <p className={homePageStyles["card__content--text"]}>Conception et déploiement de sites web et d'applications</p>
+            </div>
+
           </div>
         </div>
 
