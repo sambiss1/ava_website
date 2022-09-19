@@ -37,8 +37,8 @@ const DesktopHeader = () => {
                     <Image
                         src="/logo-ava.png"
                         alt="main logo"
-                        width={150}
-                        height={150}
+                        width={100}
+                        height={70}
                     />
                 </div>
                 <div>

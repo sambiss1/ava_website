@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
-import AboutPage from './about';
 import DesktopHeader from '../components/DesktopHeader/DesktopHeader';
 import HomePageCover from '../components/HomePageCover/HomePageCover';
 import Footer from '../components/Footer/Footer';
@@ -35,10 +33,8 @@ export default function Home() {
             <Image
               src={"/images/content_team.svg"}
               alt="team"
-              width={400}
+              width={500}
               height={450}
-            // className={homePageStyles["about__section--right__section"]}
-
             />
           </div>
         </div>

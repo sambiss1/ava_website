@@ -3,18 +3,21 @@
   width: 100%;
   padding: 0;
   position: fixed;
+  align-items: center;
   top: 0;
   background-color: white;
   padding: 0 5%;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
   max-height: 25vh;
   z-index: 99;
+  height: 80px;
 }
 
 .desktop__navigation--container {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   padding: 0;
 }
 .desktop__navigation--container div {
@@ -37,6 +40,7 @@
 .desktop__navigation--container .navigation__logo--container {
   justify-content: center;
   margin: 0 !important;
+  margin-bottom: 2em;
 }
 
 .activeLink {
