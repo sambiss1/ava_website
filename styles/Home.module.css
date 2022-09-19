@@ -1,11 +1,11 @@
 .container {
-  padding: 0 1rem;
+  padding: 0;
 }
 
 .main {
-  min-height: 100vh;
   padding: 0;
-  
+  padding: 0 5%;
+  margin-top: 30vh;
 }
 
 .footer {
@@ -112,13 +112,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }

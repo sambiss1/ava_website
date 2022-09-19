@@ -7,8 +7,15 @@
     &--container {
         display: flex;
         width: 100%;
-
         padding: 0;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        padding: 0 5%;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+        max-height: 25vh;
+        z-index: 99;
+
     }
 }
 
@@ -17,16 +24,20 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
+        padding: 0;
 
         div {
             display: flex;
             border: .1em solid white;
             width: 50%;
 
+
+            margin: 0 !important;
             align-items: center;
 
             &:nth-child(1) {
                 justify-content: flex-start;
+
             }
 
             &:nth-child(3) {
@@ -35,11 +46,10 @@
 
             li {
                 list-style-type: none;
-                margin: 0 2rem;
+                // margin: 0 2rem;
+                margin-right: 2rem;
 
-                &:nth-child(1) {
-                    margin-left: 0 !important;
-                }
+
 
             }
 

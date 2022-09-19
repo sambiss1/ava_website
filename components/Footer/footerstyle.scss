@@ -1,0 +1,54 @@
+@import "../../styles/variables";
+@import "../../styles/__breakpoints";
+
+
+$footer_background_color: #343A40;
+
+
+.footer__main {
+
+    &--container {
+        background-color: $footer_background_color;
+        position: relative;
+        bottom: 0;
+        height: 450px;
+        width: 100%;
+        padding: 5%;
+        color: white;
+    }
+
+    &--content {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+
+        padding: 0;
+        margin-bottom: 10%;
+    }
+
+    &--copyright {
+        h3 {
+            font-size: 1.2em;
+        }
+    }
+}
+
+.footer__content {
+
+    &--quicklinks,
+    &--more,
+    &--contact {
+        list-style-type: none;
+
+        padding: 0;
+
+        h3 {
+            font-size: 1.6em;
+        }
+
+        li {
+            font-size: 1.2em;
+            margin: 0 0 .5em;
+        }
+    }
+}

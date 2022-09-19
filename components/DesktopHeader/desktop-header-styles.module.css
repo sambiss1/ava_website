@@ -2,17 +2,26 @@
   display: flex;
   width: 100%;
   padding: 0;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  padding: 0 5%;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+  max-height: 25vh;
+  z-index: 99;
 }
 
 .desktop__navigation--container {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 0;
 }
 .desktop__navigation--container div {
   display: flex;
   border: 0.1em solid white;
   width: 50%;
+  margin: 0 !important;
   align-items: center;
 }
 .desktop__navigation--container div:nth-child(1) {
@@ -23,10 +32,7 @@
 }
 .desktop__navigation--container div li {
   list-style-type: none;
-  margin: 0 2rem;
-}
-.desktop__navigation--container div li:nth-child(1) {
-  margin-left: 0 !important;
+  margin-right: 2rem;
 }
 .desktop__navigation--container .navigation__logo--container {
   justify-content: center;

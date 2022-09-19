@@ -1,2 +1,12 @@
 $primary_color: #09176B;
+$footer_background_color: #343A40;
+$section_margin: 5%;
 
+
+@mixin button {
+    background-color: $primary_color;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+}

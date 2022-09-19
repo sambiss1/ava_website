@@ -1,0 +1,37 @@
+@import "variables";
+@import "__breakpoints";
+
+.about__section {
+
+    &--container {
+        width: 100%;
+        display: flex;
+        margin: $section_margin 0;
+    }
+
+    &--left__section,
+    &--right__section {
+        width: 50%;
+    }
+
+    &--left__section {
+
+
+
+        h2 {
+            font-size: 2.4em;
+        }
+
+        p {
+            font-size: 1.4em;
+        }
+
+        button {
+            @include button;
+        }
+
+    }
+
+
+
+}

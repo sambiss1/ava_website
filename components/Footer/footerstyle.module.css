@@ -1,0 +1,33 @@
+.footer__main--container {
+  background-color: #343A40;
+  position: relative;
+  bottom: 0;
+  height: 450px;
+  width: 100%;
+  padding: 5%;
+  color: white;
+}
+.footer__main--content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 10%;
+}
+.footer__main--copyright h3 {
+  font-size: 1.2em;
+}
+
+.footer__content--quicklinks, .footer__content--more, .footer__content--contact {
+  list-style-type: none;
+  padding: 0;
+}
+.footer__content--quicklinks h3, .footer__content--more h3, .footer__content--contact h3 {
+  font-size: 1.6em;
+}
+.footer__content--quicklinks li, .footer__content--more li, .footer__content--contact li {
+  font-size: 1.2em;
+  margin: 0 0 0.5em;
+}
+
+/*# sourceMappingURL=footerstyle.module.css.map */

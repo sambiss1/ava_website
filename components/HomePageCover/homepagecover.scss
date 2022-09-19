@@ -2,8 +2,10 @@
 @import "../../styles/__breakpoints";
 
 .homepage__cover {
+
     &--container {
         display: flex;
+        margin: 0 0 5%;
     }
 
     &--left__section {

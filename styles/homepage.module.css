@@ -1,0 +1,23 @@
+.about__section--container {
+  width: 100%;
+  display: flex;
+  margin: 5% 0;
+}
+.about__section--left__section, .about__section--right__section {
+  width: 50%;
+}
+.about__section--left__section h2 {
+  font-size: 2.4em;
+}
+.about__section--left__section p {
+  font-size: 1.4em;
+}
+.about__section--left__section button {
+  background-color: #09176B;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+}
+
+/*# sourceMappingURL=homepage.module.css.map */

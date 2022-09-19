@@ -4,7 +4,9 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import AboutPage from './about'
 import DesktopHeader from '../components/DesktopHeader/DesktopHeader';
-import HomePageCover from '../components/HomePageCover/HomePageCover'
+import HomePageCover from '../components/HomePageCover/HomePageCover';
+import Footer from '../components/Footer/Footer'
+import homePageStyles from "../styles/homepage.module.css";
 
 export default function Home() {
   return (
@@ -15,16 +17,28 @@ export default function Home() {
         <link rel="icon" href="/logo-ava.ico" />
       </Head>
 
+      <DesktopHeader />
       <main className={styles.main}>
-        <DesktopHeader />
-
         <HomePageCover />
+        <div className={homePageStyles["about__section--container"]}>
+          <div className={homePageStyles["about__section--left__section"]}>
+            <h2>A Propos</h2>
+            <p>Coreasofts a purely Congolese company born from the union between computer engineers in artificial intelligence and computer engineers in telecommunications and network administration, and present on the market of new technologies since 2019. In the sale of products and services.</p>
+            <button>En savoir plus ...</button>
+          </div>
+          <div className={homePageStyles["about__section--right__section"]}>
+            <Image
+              src={"/images/content_team.svg"}
+              alt="team"
+              width={550}
+              height={550}
+            />
+          </div>
+        </div>
 
       </main>
 
-      <footer className={styles.footer}>
-
-      </footer>
+      <Footer />
     </div>
   )
 }

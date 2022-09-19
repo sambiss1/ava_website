@@ -1,5 +1,6 @@
 .homepage__cover--container {
   display: flex;
+  margin: 0 0 5%;
 }
 .homepage__cover--left__section {
   width: 45%;
