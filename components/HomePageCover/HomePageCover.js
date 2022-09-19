@@ -3,8 +3,8 @@ import homeCoverStyle from "./homepagecover.module.css";
 const HomePageCover = () => {
 
     return (
-        <div className={homeCoverStyle["homepage__cover--container"]}>
-            <div className={homeCoverStyle["homepage__cover--left__section"]}>
+        <div className={homeCoverStyle["page__cover--container"]}>
+            <div className={homeCoverStyle["page__cover--left__section"]}>
                 <Image
                     src={"/images/home_pag_cover.svg"}
                     alt="homepage cover image"
@@ -13,7 +13,7 @@ const HomePageCover = () => {
 
                 />
             </div>
-            <div className={homeCoverStyle["homepage__cover--right__section"]}>
+            <div className={homeCoverStyle["page__cover--right__section"]}>
                 <h2>Agence Vigile Africa </h2>
                 <p>Une agence de services pour la gestion de vos projets,
                     la sécurité de vos vies et de vos biens</p>
