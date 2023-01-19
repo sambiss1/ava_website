@@ -1,29 +1,29 @@
-$primary_color: #09176B;
-$footer_background_color: #343A40;
+$primary_color: #09176b;
+$secondary_color: #ff8700;
+$footer_background_color: #343a40;
 $section_margin: 5%;
 
-
 @mixin button {
-    background-color: $primary_color;
-    border: none;
-    color: white;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
+  background-color: $primary_color;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
 }
 
 @mixin flex__display__row {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 @mixin flex__display__column {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
 }
 
 @mixin centeredItem {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }

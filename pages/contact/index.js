@@ -15,7 +15,7 @@ const ContactPage = ({ props }) => {
     return (
         <div className={homePageStyles.container}>
             <Head>
-                <title> A Propos | Agence Vigile Africa</title>
+                <title> Contact | Agence Vigile Africa</title>
             </Head>
             <DesktopHeader />
             <main className={homePageStyles.main}>
