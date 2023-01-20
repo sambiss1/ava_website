@@ -37,6 +37,9 @@
   list-style-type: none;
   margin-right: 2rem;
 }
+.desktop__navigation--container div li:hover {
+  color: #09176B;
+}
 .desktop__navigation--container .navigation__logo--container {
   justify-content: center;
   margin: 0 !important;
